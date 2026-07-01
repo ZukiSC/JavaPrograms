@@ -1,4 +1,17 @@
     
- public int subtract(int a, int b) {
-        return a - b;
-    }   
+
+import java.util.Scanner;
+public class subtract {
+    public static void main(String[] args) {
+        int num1, num2;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = scanner.nextInt();
+        System.out.println("Enter Second Number: ");
+        num2 = scanner.nextInt();
+        System.out.println("Difference: " + (num1 - num2));
+
+        scanner.close();
+    }
+}
